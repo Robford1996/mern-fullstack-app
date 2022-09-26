@@ -7,7 +7,7 @@ require("dotenv").config();
 const { PORT = 4000, MONGODB_URL } = process.env;
 //import express
 const express = require("express");
-const { default: mongoose } = require("mongoose");
+const mongoose = require("mongoose");
 //create application object
 const app = express();
 //import middlewares
